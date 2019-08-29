@@ -43,8 +43,9 @@
         </plugins>
     </build>
     <scm>
-        <connection>scm:git:git@github.com:priestfteast/sfg-pet-clinic.git</connection>
-        <developerConnection>scm:git:git@github.com:priestfteast/sfg-pet-clinic.git</developerConnection>
+
+        <connection>scm:git:https://github.com/priestfteast/sfg-pet-clinic.git</connection>
+        <developerConnection>scm:git:https://github.com/priestfteast/sfg-pet-clinic.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
