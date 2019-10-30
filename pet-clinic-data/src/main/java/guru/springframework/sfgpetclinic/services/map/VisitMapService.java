@@ -34,7 +34,7 @@ public class VisitMapService extends AbstractMapService<Visit, Long> implements 
             object.getPet().getOwner().getId()==null){
             throw new RuntimeException("Invalid visit");
         }
-        else
+
         return super.save(object);
     }
 }
