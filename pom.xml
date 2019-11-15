@@ -68,7 +68,7 @@
 
         <connection>scm:git:https://github.com/priestfteast/sfg-pet-clinic.git</connection>
         <developerConnection>scm:git:https://github.com/priestfteast/sfg-pet-clinic.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>sfg-pet-clinic-0.1.1</tag>
     </scm>
 
 </project>
