@@ -60,9 +60,8 @@ public class VisitController {
         return visit;
     }
 
-
     // Spring MVC calls method loadPetWithVisit(...) before initNewVisitForm is called
-    @GetMapping("/owners/{ownerId}/pets/{petId}/visits/new")
+    @GetMapping("/owners/*/pets/{petId}/visits/new")
     public String initNewVisitForm(@PathVariable("petId") Long petId, Map<String, Object> model) {
         return "pets/createOrUpdateVisitForm";
     }
